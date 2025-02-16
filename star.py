@@ -1,0 +1,25 @@
+import turtle
+turtle.Screen().bgcolor("yellow")
+turtle.Screen().setup(300,400)
+star=turtle.Turtle()
+
+
+star.forward(100)
+star.right(120)
+star.forward(100)
+star.right(120)
+star.forward(100)
+star.penup()
+star.right(120)
+star.forward(50)
+star.left(90)
+star.forward(25)
+star.right(210)
+star.pendown()
+star.forward(100)
+star.left(120)
+star.forward(100)
+star.left(120)
+star.forward(100)
+
+turtle.done()
